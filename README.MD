@@ -13,4 +13,5 @@ Don't use the image tag if we are using the Dockerfile. Because the ElasticBeans
 If we have the images in External repo than we can simply use that instead of writing the the Dockerfile and simply use the Dockerrun.aws.json, where we can simply put the image to use.
 
 
-
+## Running it on AWS Elastic BeanStalk
+Simply setup the Elastic Beanstalk from the aws console and in the upload and deploy section provide the zip file of our files. The files are present on the repo. 
